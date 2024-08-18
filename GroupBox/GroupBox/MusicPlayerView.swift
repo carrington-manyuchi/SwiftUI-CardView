@@ -15,9 +15,9 @@ struct MusicPlayerView: View {
                     .frame(width: 50, height: 50, alignment: .center)
                     .foregroundStyle(.secondary)
                 VStack(alignment: .leading, spacing: 2, content: {
-                    Text("Cool Song Title")
+                    Text("Zimbabwe Ichanaka")
                         .font(.headline.bold())
-                    Text("Artist Name")
+                    Text("Carrington Johnson")
                         .font(.footnote)
                         .foregroundStyle(.secondary)
                 })
