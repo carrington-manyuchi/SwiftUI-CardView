@@ -11,6 +11,8 @@
 		E6F0B1D62C7204740082F93F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F0B1D52C7204740082F93F /* ContentView.swift */; };
 		E6F0B1D82C7204750082F93F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6F0B1D72C7204750082F93F /* Assets.xcassets */; };
 		E6F0B1DB2C7204750082F93F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6F0B1DA2C7204750082F93F /* Preview Assets.xcassets */; };
+		E6F0B1E22C720A200082F93F /* MusicPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F0B1E12C720A200082F93F /* MusicPlayerView.swift */; };
+		E6F0B1E42C720D610082F93F /* MusicGroupBoxStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F0B1E32C720D600082F93F /* MusicGroupBoxStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		E6F0B1D52C7204740082F93F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E6F0B1D72C7204750082F93F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E6F0B1DA2C7204750082F93F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E6F0B1E12C720A200082F93F /* MusicPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayerView.swift; sourceTree = "<group>"; };
+		E6F0B1E32C720D600082F93F /* MusicGroupBoxStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicGroupBoxStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +56,8 @@
 			isa = PBXGroup;
 			children = (
 				E6F0B1D32C7204740082F93F /* GroupBoxApp.swift */,
+				E6F0B1E32C720D600082F93F /* MusicGroupBoxStyle.swift */,
+				E6F0B1E12C720A200082F93F /* MusicPlayerView.swift */,
 				E6F0B1D52C7204740082F93F /* ContentView.swift */,
 				E6F0B1D72C7204750082F93F /* Assets.xcassets */,
 				E6F0B1D92C7204750082F93F /* Preview Content */,
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6F0B1E22C720A200082F93F /* MusicPlayerView.swift in Sources */,
 				E6F0B1D62C7204740082F93F /* ContentView.swift in Sources */,
 				E6F0B1D42C7204740082F93F /* GroupBoxApp.swift in Sources */,
+				E6F0B1E42C720D610082F93F /* MusicGroupBoxStyle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
